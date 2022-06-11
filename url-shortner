@@ -1,0 +1,22 @@
+Link https://www.youtube.com/watch?v=JQDHz72OA3c
+
+Data Capacity Model - How to store data and 
+
+
+Short url
+Long Url
+Created at
+Expires at
+
+Per touple 2kb
+
+ - How much data will be filled in DB for 30M users 
+   60GB moth
+   
+   
+   url.sh/{7char value}
+   We can have base 62 items. (a-z,A-Z,0-9) -> 62 chars which means we can create max 67 pow 7 -> 3.5 trillion codes.
+   
+   
+   to remove collision we can use apache zookeeper, which will be used to manage distributed co-ordination for no-collision.
+   
